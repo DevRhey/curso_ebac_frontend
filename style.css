@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+header {
+  background-color: #21a6c7;
+  padding: 10px 0;
+  border-bottom: 10px solid #1b8ba3;
+}
+div {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+form {
+  background-color: aquamarine;
+  padding: 5px;
+}
+form input {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #1b8ba3;
+}
+form input[type="submit"] {
+  background-color: #1b8ba3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+form input[type="reset"] {
+  background-color: #c93f08;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 10px;
+  list-style: none;
+  padding: 1px;
+  background-color: rgb(207, 200, 200);
+  max-width: 1000px;
+}
+ul li {
+  width: auto;
+  padding: 5px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #1b8ba3;
+}
+ul li p {
+  font-size: 24px;
+  font-weight: bold;
+}
+#cadastrar {
+  background-color: #1ba31b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+#cancelar {
+  background-color: #c93f08;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+}
