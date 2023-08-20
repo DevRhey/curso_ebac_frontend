@@ -13,7 +13,7 @@ $(document).ready(function () {
     if (addNovaTarefa === "") {
       alert("Digite uma tarefa!");
     } else {
-      const addItem = $("<li></li>").append(`<p>${addNovaTarefa}</p>`);
+      const addItem = $(`<li>${addNovaTarefa}</li>`);
       $("ul").append(addItem);
       $("#tarefa").val("");
     }
