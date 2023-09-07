@@ -48,21 +48,3 @@ exports.default = function () {
   );
 };
 
-//const gulp = require("gulp");
-
-//function funcaoPadrao(callback) {
-// console.log("Exectando via gulp");
-//  callback();
-//}
-//function dizOi(callback) {
-//  console.log("Oi");
-// dizTchau();
-/// callback();
-//}
-
-//function dizTchau() {
-// console.log("Tchau");
-//}
-
-//exports.default = gulp.parallel(funcaoPadrao, dizOi);
-//exports.default = gulp.series(funcaoPadrao, dizOi);
